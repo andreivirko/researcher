@@ -1,0 +1,13 @@
+.timer-section {
+    width: 500px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.timer-section div {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}

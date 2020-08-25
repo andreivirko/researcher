@@ -1,5 +1,7 @@
 import "./styles/styles.css";
-import "./timer/timer.js";
+// import "./timer/timer.js";
+import "./menu/menu.js";
+
 
 // const url = "https://restcountries.eu/rest/v2/all";
 // GET- запрос на получение данных

@@ -1,6 +1,7 @@
 import "./styles/styles.css";
 // import "./timer/timer.js";
-import "./menu/menu.js";
+// import "./menu/menu.js";
+import './promisification/promise.js';
 
 
 // const url = "https://restcountries.eu/rest/v2/all";

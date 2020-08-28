@@ -1,2 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
+.countries {
+    width: 1200px;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-transform: uppercase;
+}

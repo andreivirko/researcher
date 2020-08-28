@@ -1,5 +1,5 @@
-{{#each this}}
-<li class="menu__item">
+{{!-- {{#each this}} --}}
+{{!-- <li class="menu__item">
     <div class="card">
         <img src="{{image}}" alt="{{name}}" width="250" class="card__image">
         <div class="card__content">
@@ -14,5 +14,18 @@
         </div>
         <button class="card__button button"> <i class="material-icons button__icon">shopping_cart</i> shopping cart</button>
     </div>
+</li>
+{{/each}} --}}
+
+{{#each this}}
+<li>
+    <h1>{{name}}</h1>
+    <p>{{region}} - {{subregion}}</p>
+    <img src="{{flag}}" alt="{{name}}" width="250"> 
+    <ul>
+        {{#each languages}}
+        <li>{{this.name}}</li>
+        {{/each}}
+    </ul>
 </li>
 {{/each}}
